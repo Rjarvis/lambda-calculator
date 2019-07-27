@@ -12,7 +12,6 @@ const Numbers = props => {
     it any props needed by the child component*/
   return (
     <div>
-       
       {
         props.numbers.map(numberElement =>{
           return <NumberButton number={numberElement}/>;
