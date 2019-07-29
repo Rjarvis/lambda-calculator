@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    background-color: red;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 25px;
+  }
+  
+  .displayArea{
+    display: flex;
+    text-align: right;
+    background-color: darkgray;
+    border-radius: 25px;
+    width: auto;
+  }
+  
+  button{
+    border-radius: 25px;
+    width: auto;
+    display: flex;
+    border: 0px;
+    margin: 2px;
+  }
+
+  .operator{
+      background-color: green;
+  }
+
+  .number{
+      background-color: blue;
+  }
+
+  .special{
+      background-color: blueviolet;
+  }
+

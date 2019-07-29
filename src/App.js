@@ -18,14 +18,19 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   const specials = data.specials;
+  const numbers = data.numbers;
+  const operators = data.operators;
   console.log("App.js: App: specials", specials);
+  console.log("App.js: App: numbers", numbers);
   //STEP 4 - Render your components here and be sure to properly import/export all files
   return (
     <div className="container">
       <Logo />
       <div className="App">
-        <Display style="displayArea">0</Display>
-        <Specials specials={specials}/>
+        <Display  class="displayArea">0</Display>
+        <Specials class="special" specials={specials}/>
+        <Numbers  class="number" numbers={numbers}/>
+        <Operators  class="operator" operators={operators}/>
       </div>
     </div>
   );
