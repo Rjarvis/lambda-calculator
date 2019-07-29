@@ -21,7 +21,7 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
-        {}
+        <Display style="displayArea">0</Display>
       </div>
     </div>
   );
