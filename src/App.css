@@ -22,15 +22,15 @@
     margin: 2px;
   }
 
-  .operator{
+  button.operator{
       background-color: green;
   }
 
-  .number{
+  button.number{
       background-color: blue;
   }
 
-  .special{
+  button.special{
       background-color: blueviolet;
   }
 

@@ -2,8 +2,9 @@ import React from "react";/* Display a button element rendering the data being p
 
 const SpecialButton = props => {
   const special = props.special;
+  const className = props.className;
   return (
-    <button>
+    <button className={className}>
       {special}
       {console.log("SpecialButton.js: SpecialButton: special", special)}
     </button>

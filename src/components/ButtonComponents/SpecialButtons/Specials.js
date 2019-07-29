@@ -15,7 +15,7 @@ const Specials = props => {
     <div>
       {
         props.specials.map(specialsElement =>{
-          return <SpecialButton special={specialsElement}/>;
+          return <SpecialButton className={props.className} special={specialsElement}/>;
         })
       }
     </div>

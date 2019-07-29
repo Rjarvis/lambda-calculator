@@ -27,10 +27,10 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
-        <Display  class="displayArea">0</Display>
-        <Specials class="special" specials={specials}/>
-        <Numbers  class="number" numbers={numbers}/>
-        <Operators  class="operator" operators={operators}/>
+        <Display  className="displayArea">0</Display>
+        <Specials className="special" specials={specials}/>
+        <Numbers  className="number" numbers={numbers}/>
+        <Operators  className="operator" operators={operators}/>
       </div>
     </div>
   );

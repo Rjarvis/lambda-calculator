@@ -16,7 +16,7 @@ const Numbers = props => {
     <div>
       {
         props.numbers.map(numberElement =>{
-          return <NumberButton number={numberElement}/>;
+          return <NumberButton className={props.className} number={numberElement}/>;
         })
        }
     </div>
