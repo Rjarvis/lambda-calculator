@@ -12,7 +12,7 @@ const Specials = props => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/
   return (
-    <div>
+    <div className={props.specialsContainer}>
       {
         props.specials.map(specialsElement =>{
           return <SpecialButton className={props.className} special={specialsElement}/>;

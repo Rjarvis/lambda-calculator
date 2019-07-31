@@ -13,7 +13,7 @@ const Numbers = props => {
     component matching the name on the provided file. Pass
     it any props needed by the child component*/
   return (
-    <div>
+    <div className={props.numbersContainer}>
       {
         props.numbers.map(numberElement =>{
           return <NumberButton className={props.className} number={numberElement}/>;

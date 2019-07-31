@@ -27,9 +27,9 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
-        <Display  className="displayArea">0</Display>
-        <Specials className="special" specials={specials}/>
-        <Numbers  className="number" numbers={numbers}/>
+        <Display  className="displayArea" output=""/>
+        <Specials className="special" specials={specials} specialsContainer="specialsContainer"/>
+        <Numbers  className="number" numbers={numbers} numbersContainer="numContainer"/>
         <Operators  className="operator" operators={operators}/>
       </div>
     </div>
