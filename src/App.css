@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    background-color: red;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 25px;
+  }
+  
+  div.displayArea{
+    display: flex;
+    text-align: right;
+    background-color: darkgray;
+    border-radius: 25px;
+    width: auto;
+  }
+  
+  button{
+    border-radius: 25px;
+    width: auto;
+    display: flex;
+    border: 0px;
+    margin: 2px;
+  }
+
+  button.operator{
+      background-color: lightskyblue;
+  }
+
+  button.number{
+      background-color: blue;
+  }
+
+  button.special{
+      background-color: teal;
+  }
+
+  div.numContainer{
+      display: inline-flex;
+      flex-wrap: wrap;
+      padding: 5%;
+  }
+
+  div.operatorContainer{
+      display: inline-flex;
+      border: 2px solid green;
+  }
+
+  div.specialsContainer{
+    display: inline-flex;
+    border: 2px solid purple;
+}
